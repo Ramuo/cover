@@ -42,7 +42,7 @@ a{
 }
 .pimg1 h1{
     text-align: center;
-    margin-top: 70px;
+    /* margin-top: 30px; */
     background-color: var(--secondary-color);
     color: var(--white-color);
     padding: 20px 0 20px;
@@ -60,10 +60,11 @@ a{
 }
 .pimg1{
     background-image: url('/images/icademie-img.png');
-    min-height: 136%;
+    background-size: 500px;
+    min-height: 80%;
 }
 .pimg1 h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .button button{
     font-size: 15px;
@@ -71,7 +72,7 @@ a{
 
 .pimg4{
     background-image: url('/images/road-to-learn.jpg');
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .ptext{
@@ -101,7 +102,8 @@ a{
     font-weight: bold;
 }  
 .ptext p{
-    margin-top: 65px;
+    //margin-top: 65px;
+    margin-bottom: 65px;
     background-color: #000;
     color: var(--white-color);
     padding: 10px;
@@ -118,7 +120,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 135px;
+   
 }
 .p-btn{
     display: inline-block; 
